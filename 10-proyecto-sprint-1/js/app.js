@@ -71,7 +71,7 @@ function buscar(nombre, estudiantes) {
 function topTecnico(estudiantes) {
     // TO DO: Retornar el arreglo de estudiantes ordenado por puntaje técnico de mayor a menor
     estudiantes.sort(function(a, b) {
-      return a.tecnico - b.tecnico;
+        return a.tecnico - b.tecnico;
     });
 
     return estudiantes;
@@ -80,7 +80,7 @@ function topTecnico(estudiantes) {
 function topHSE(estudiantes) {
     // TO DO: Retornar el arreglo de estudiantes ordenado por puntaje de HSE de mayor a menor
     estudiantes.sort(function(a, b) {
-      return a.hse - b.hse;
+        return a.hse - b.hse;
     });
 
     return estudiantes;
