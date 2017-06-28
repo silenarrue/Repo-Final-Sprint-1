@@ -60,10 +60,13 @@ function buscar(nombre, estudiantes) {
     // Nota: NO IMPORTA SI EL USUARIO ESCRIBE EL NOMBRE EN MAYÚSCULAS O MINÚSCULAS
     for (i = 0; i < estudiantes.length; i++) {
         if (nombre.toLowerCase() == estudiantes[i].name.toLowerCase()) {
-            return estudiantes[i];
+            //return estudiantes[i];
+            return swal("Good job!", "You clicked the button!", "success");
         }
 
     }
+
+
 
 
 }
